@@ -34,8 +34,24 @@ body {
     width: 20rem !important;
   }
 
-  .services .box {
-    height: 35rem !important;
+  .experience .container {
+    padding-left: 0 !important;
+  }
+
+  .experience-wrapper::before {
+    left: 0.5rem !important;
+    margin-bottom: 1.875rem !important;
+  }
+
+  .timeline-block-right {
+    float: none !important;
+    width: 100% !important;
+  }
+
+  .timeline-block-left {
+    float: none !important;
+    direction: ltr !important;
+    width: 100% !important;
   }
 }
 
@@ -166,7 +182,7 @@ nav a.nav-link {
 }
 
 .services h1 {
-  color: var(--bs-gray-800);
+  color: var(--bs-orange);
 }
 
 .services .circle {
@@ -210,4 +226,71 @@ nav a.nav-link {
 
 .services .box:hover p {
   color: var(--bs-white);
+}
+
+/************************************** EXPERIENCE **************************************/
+
+.experience {
+  padding: 0.7rem;
+}
+
+.experience-wrapper {
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience h1 {
+  color: var(--bs-orange);
+}
+
+.experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--bs-gray-200);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--bs-dark);
+  background: var(--bs-orange);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--bs-gray-800);
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--bs-red);
+  font-weight: 900;
 }

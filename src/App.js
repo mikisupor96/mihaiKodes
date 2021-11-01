@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Particles from "react-tsparticles";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
+import Experience from "./components/Experience";
 
 function App() {
   const particlesInit = (main) => {
@@ -86,6 +87,7 @@ function App() {
       <Header />
       <AboutMe />
       <Services />
+      <Experience />
     </>
   );
 }

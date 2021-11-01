@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 
 :root {
-  --primary-white: #fff;
-  --primary-orange: #f9ab00;
-  --primary-dark: #000000;
+  --bs-white: #fff;
+  --bs-orange: #ffc74e;
+  --bs-gray-800: #000000;
   --pirmary-red: #ef4035;
   --primary-hover-red: #f33501;
 }
@@ -29,6 +29,14 @@ body {
   .navbar-brand {
     width: 0.7rem;
   }
+
+  .profile-img {
+    width: 20rem !important;
+  }
+
+  .services .box {
+    height: 35rem !important;
+  }
 }
 
 @media (max-width: 468px) {
@@ -52,8 +60,8 @@ nav a.nav-link {
 
 .navbar-nav > li > a {
   margin-right: 0.75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.275rem solid, var(--primary-dark);
+  color: var(--bs-white) !important;
+  border-top: 0.275rem solid, var(--bs-gray-800);
 }
 
 .navbar-brand {
@@ -63,11 +71,11 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a.active:focus {
-  border-top: 0.275rem solid var(--primary-orange);
+  border-top: 0.275rem solid var(--bs-orange);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.275rem solid var(--primary-orange);
+  border-top: 0.275rem solid var(--bs-orange);
 }
 
 /************************************** HEADER **************************************/
@@ -99,18 +107,18 @@ nav a.nav-link {
 }
 
 .main-info h1 {
-  color: var(--primary-white);
+  color: var(--bs-white);
 }
 
 .main-info h2 {
-  color: var(--primary-orange);
+  color: var(--bs-orange);
 }
 
 /**** TYPED TEXT ****/
 
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: var(--bs-white);
 }
 
 /**** HEADER BUTTON ****/
@@ -118,7 +126,7 @@ nav a.nav-link {
 .btn-light {
   text-decoration: none;
   margin: 2rem;
-  color: var(--primary-dark);
+  color: var(--bs-gray-800);
 }
 
 /************************************** PARTICLES JS **************************************/
@@ -141,9 +149,65 @@ nav a.nav-link {
   width: 30rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid var(--primary-orange);
+  border: 1px solid var(--bs-orange);
 }
 
 .about-heading {
-  color: var(--primary-orange);
+  color: var(--bs-orange);
+}
+
+/************************************** SERVICES **************************************/
+
+.services {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--bs-gray-100);
+  cursor: pointer;
+}
+
+.services h1 {
+  color: var(--bs-gray-800);
+}
+
+.services .circle {
+  position: relative;
+  margin: 0.375rem auto;
+  background: var(--bs-orange);
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.services .icon {
+  font-size: 1.4rem;
+  color: var(--bs-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services .box {
+  height: 23rem;
+  border-bottom: 0.3125rem solid var(--bs-orange);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--bs-white);
+}
+
+.services .box:hover {
+  background: var(--bs-orange);
+  border-bottom: 0.3125rem solid var(--bs-dark);
+}
+
+.services .box:hover .icon {
+  color: var(--bs-dark);
+}
+
+.services .box:hover .circle {
+  background: var(--bs-white);
+}
+
+.services .box:hover p {
+  color: var(--bs-white);
 }

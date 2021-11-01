@@ -33,3 +33,5 @@
 33. Change the `main-info` to absolute position to allow the adding of particles, use `top bottom right left:0` to center
 34. install `react-tsparticles`. Set react tsparticles according to docs.
 35. Add about me section, using react component.
+36. Add Services componenet, install `react brands` for facebook and other known icons.
+37. Add new icons and style them by centering them and adding background and color.

@@ -18,7 +18,7 @@ const AboutMe = () => {
             project goals, persevering through buggy code and seeking help when
             I really struggle.
           </p>
-          <h1>WHY SHOULD I HIRE YOU?</h1>
+          <h1 className="about-heading">WHY SHOULD I HIRE YOU?</h1>
           <p>
             Most people who join the world of Web Development they do so becuase
             they hear of how much money is to be made. I just like spending my

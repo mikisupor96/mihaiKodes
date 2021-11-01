@@ -13,7 +13,7 @@
 13. To add a repository we copy paste the line from git hub that has `remote` on it.
 14. Then we push the changes using `git push -u origin master` this adds changes to the master branch.Use this token to upload[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]
 15. We use `git branch` to check the current branches. We use `git remote -v` to check the current remote. To change url origin we use `git remote set-url name`. Here is an example of the remote `https://[ACCESS TOKEN]@github.com/[USERNAME]/[PROJECT NAME]`
-16. In src we create a directory named `components`, we can use `rafc` to create the code inside an empty component.
+16. In src we create a directory named `components`, we can use `rafce` to create the code inside an empty component.
 17. Import the `navbar` component, the js extension does not need to be specified because webpack is installed.
 18. All `class` need to be changed to `className` in html elements.
 19. Use `ms-auto` on the `ul` element to push it to the left of the screen.
@@ -31,4 +31,5 @@
 31. We add `flex` and `flex-column` so that we can stack text in collumns.
 32. Install `react-typed` for the typed effect. Add react comoonent `<Typed />` with attributes: `strings:["", ""]`, `typeSpeed`, `backSpeed`, `loop`.
 33. Change the `main-info` to absolute position to allow the adding of particles, use `top bottom right left:0` to center
-34. install `react-tsparticles`.
+34. install `react-tsparticles`. Set react tsparticles according to docs.
+35. Add about me section, using react component.

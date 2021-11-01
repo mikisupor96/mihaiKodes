@@ -24,3 +24,4 @@
 24. Wrap the content in a `container` class to center them.(use alt + down or up to move stuff across screen)
 25. Add `hover` and `focus` effect border top to indicate where the user is at.
 26. Install `react fontawesome`, then import into Navbar.js, we add a hamburger icon. Then add it as a `react` component.
+27. Use `git checkout -b name` to create a new navbar branch.

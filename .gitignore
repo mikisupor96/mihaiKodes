@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore the readme file
-.README.md
+README.md
 

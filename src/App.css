@@ -57,7 +57,10 @@ body {
 
 @media (max-width: 468px) {
   .profile-img {
-    width: 10rem;
+    width: 35rem;
+  }
+  .portfolio-image-popupbox {
+    width: 15rem !important;
   }
 }
 
@@ -98,7 +101,7 @@ nav a.nav-link {
 
 .header-wraper {
   position: relative;
-  background: url(background.jpg) no-repeat;
+  background: url(./Images/background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -209,6 +212,7 @@ nav a.nav-link {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--bs-white);
+  transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
@@ -293,4 +297,68 @@ nav a.nav-link {
   margin-top: 0.3125rem;
   color: var(--bs-red);
   font-weight: 900;
+}
+
+/************************************** PORTFOLIO **************************************/
+
+.portfolio-wrapper {
+  background: var(--bs-gray-100);
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--bs-yellow);
+}
+
+.portfolio-image-box {
+  position: relative;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--bs-gray-800);
+  width: 15rem;
+  height: 9.2rem;
+  top: 0;
+  border: 1px solid var(--pirmary-red);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--bs-orange);
+  font-size: 1.5rem;
+}
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-image-popupbox {
+  width: 35rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--bs-gray-800);
+}
+
+.hyper-link:hover {
+  color: var(--bs-orange);
+}
+
+.portfolio-wrapper h1 {
+  color: var(--bs-orange);
 }

@@ -11,16 +11,19 @@ const Header = () => {
           className="typed-text"
           strings={[
             "Don`t try!",
-            "Instead suceed",
+            "Instead succeed",
             "in what you love",
             "through failure.",
           ]}
-          typeSpeed={40}
-          backSpeed={60}
+          // typeSpeed={60}
+          // backSpeed={60}
           loop
         />
         <button type="button" className="btn btn-light">
-          <a href="#" className="btn-main-contact">
+          <a
+            href="https://getbootstrap.com/docs/4.0/utilities/flex/"
+            className="btn-main-contact"
+          >
             CONTACT ME
           </a>
         </button>

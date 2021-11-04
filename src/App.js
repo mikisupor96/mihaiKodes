@@ -6,21 +6,13 @@ import Particles from "react-tsparticles";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 
 function App() {
-  const particlesInit = (main) => {
-    console.log(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
   return (
     <>
       <Particles
         id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
         options={{
           fpsLimit: 60,
           interactivity: {
@@ -88,6 +80,7 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
+      <Portfolio />
     </>
   );
 }

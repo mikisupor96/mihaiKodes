@@ -20,22 +20,35 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
+              >
                 HOME
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
+              >
                 EXPERIENCE
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
+              >
                 PROJECTS
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
+              >
                 CONTACT ME
               </a>
             </li>

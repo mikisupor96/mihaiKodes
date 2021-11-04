@@ -35,4 +35,5 @@
 35. Add about me section, using react component.
 36. Add Services componenet, install `react brands` for facebook and other known icons.
 37. Add new icons and style them by centering them and adding background and color.
-38. Add Experience section
+38. Add Experience section, adding a line in the middle in css and a button as well in css.
+39. Install `reactjs popup` componennt.

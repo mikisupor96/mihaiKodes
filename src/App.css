@@ -53,6 +53,17 @@ body {
     direction: ltr !important;
     width: 100% !important;
   }
+
+  .contact {
+    overflow-x: hidden;
+  }
+
+  .contact .container {
+    padding: 0 1rem !important;
+  }
+  .contact p {
+    padding: 0 1rem !important;
+  }
 }
 
 @media (max-width: 468px) {
@@ -361,4 +372,70 @@ nav a.nav-link {
 
 .portfolio-wrapper h1 {
   color: var(--bs-orange);
+}
+
+/************************************** PORTFOLIO **************************************/
+.contact {
+  background: var(--bs-gray-800);
+  padding: 3rem 0;
+}
+
+.contact h1 {
+  color: var(--bs-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contact p {
+  color: var(--bs-gray-200);
+  font-size: 1.2rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--bs-gray-300);
+  border-radius: 0;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  background: transparent;
+  color: var(--bs-orange) !important;
+  border-bottom: 0.125rem solid var(--bs-gray-300);
+}
+
+.contact textarea {
+  height: 10rem;
+  margin: 2rem 0;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  color: var(--bs-orange);
+  background: none;
+}
+
+.error-message {
+  color: var(--bs-white);
+  background: var(--bs-red);
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: var(--bs-green);
 }

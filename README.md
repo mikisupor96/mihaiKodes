@@ -37,3 +37,7 @@
 37. Add new icons and style them by centering them and adding background and color.
 38. Add Experience section, adding a line in the middle in css and a button as well in css.
 39. Install `reactjs popup` componennt.
+40. Use component in code.
+41. Use `emailjs` to get emails sent
+42. Fill in as per documentation and then get `serviceID` from email service Service ID, then get `templateID0` from email template settings Template ID, lastly `userID` from Integration, API User ID
+43. `react-hook form` set it up using documentation keeping in mind of version changes

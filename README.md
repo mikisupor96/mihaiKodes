@@ -41,3 +41,4 @@
 41. Use `emailjs` to get emails sent
 42. Fill in as per documentation and then get `serviceID` from email service Service ID, then get `templateID0` from email template settings Template ID, lastly `userID` from Integration, API User ID
 43. `react-hook form` set it up using documentation keeping in mind of version changes
+44. Use `react-scroll` to add scroll functionality and implement scrolability by adding smooth and connecting to id`s of the part you want it to go to.

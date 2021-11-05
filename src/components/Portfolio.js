@@ -111,7 +111,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="portfolio-wrapper">
+    <div id="projects" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-center py-5">PORTFOLIO</h1>
         <div className="image-box-wrapper row row-cols-auto justify-content-center">

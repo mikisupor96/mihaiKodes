@@ -1,10 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
         <button
           className="navbar-toggler"
@@ -20,37 +21,54 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a
+              <Link
+                smooth={true}
+                offset={-50}
+                to="home"
                 className="nav-link active"
-                aria-current="page"
-                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
               >
                 HOME
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
+                smooth={true}
+                offset={-50}
+                to="about"
+                className="nav-link active"
+              >
+                ABOUT ME
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link smooth={true} offset={-20} to="offer" className="nav-link">
+                WHAT I OFFER
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                smooth={true}
+                offset={-20}
+                to="experience"
                 className="nav-link"
-                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
               >
                 EXPERIENCE
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
+                smooth={true}
+                offset={-20}
+                to="projects"
                 className="nav-link"
-                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
               >
                 PROJECTS
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://getbootstrap.com/docs/4.0/utilities/flex/"
-              >
+              <Link smooth={true} to="contact" className="nav-link">
                 CONTACT ME
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

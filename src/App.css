@@ -91,7 +91,7 @@ nav a.nav-link {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   color: var(--bs-white) !important;
-  border-top: 0.275rem solid, var(--bs-gray-800);
+  border-bottom: 0.275rem solid, var(--bs-gray-800);
 }
 
 .navbar-brand {
@@ -100,12 +100,13 @@ nav a.nav-link {
   height: 6rem !important;
 }
 
-.navbar-nav > li > a.active:focus {
-  border-top: 0.275rem solid var(--bs-orange);
+.navbar-nav > li > a:active,
+.navbar-nav > li a:focus {
+  border-bottom: 0.275rem solid var(--bs-orange);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.275rem solid var(--bs-orange);
+  border-bottom: 0.275rem solid var(--bs-orange);
 }
 
 /************************************** HEADER **************************************/
@@ -115,7 +116,7 @@ nav a.nav-link {
   background: url(./Images/background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -438,4 +439,17 @@ nav a.nav-link {
 .success-message {
   font-weight: 900;
   color: var(--bs-green);
+}
+
+.footer p {
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  color: var(--bs-orange);
+  margin-top: 0.8rem;
+  margin-right: 0.6rem;
 }

@@ -88,6 +88,10 @@ nav a.nav-link {
   cursor: pointer;
 }
 
+.nav-link {
+  color: var(--bs-gray-800) !important;
+}
+
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   color: var(--bs-white) !important;
@@ -157,7 +161,7 @@ nav a.nav-link {
 .btn-light {
   text-decoration: none;
   margin: 2rem;
-  color: var(--bs-gray-800);
+  color: var(--bs-gray-800) !important;
 }
 
 /************************************** PARTICLES JS **************************************/

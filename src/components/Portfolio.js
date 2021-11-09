@@ -7,7 +7,15 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
-  // TODO: Clean this up please and add descriptions
+  let config = {
+    titleBar: {
+      enable: true,
+      text: "",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
   // Company Database
   const openCompanyDatabase = () => {
     const content = (
@@ -17,11 +25,14 @@ const Portfolio = () => {
           src={cpdatabase}
           alt="Company Database project"
         />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          corporis expedita alias! Nulla velit tempora delectus deserunt.
-          Cupiditate porro itaque officia deleniti provident, assumenda ratione
-          similique sit nihil unde maxime?
+        <p className="mt-3">
+          In this project, I look at the full stack lifecycle by making use of
+          Javascript PHP and MySql to create an HR system that can be used by
+          any company. While a system like this can be automatically generated
+          by using an online tool, creating this project has helped me to
+          understand best practices but most importantly how to scale apps. This
+          project was done using a specification provided to me by my tutor and
+          mentor.
         </p>
         <p>
           <b>GitHub: </b>
@@ -47,16 +58,9 @@ const Portfolio = () => {
       </>
     );
 
-    PopupboxManager.open({ content });
-  };
+    config["titleBar"]["text"] = "Company Database Project";
 
-  const configCompanyDatabase = {
-    titleBar: {
-      enable: true,
-      text: "Company Database Project",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({ content, config });
   };
 
   // Mapyo
@@ -68,11 +72,12 @@ const Portfolio = () => {
           src={mapyo}
           alt="Mapyo project"
         />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          corporis expedita alias! Nulla velit tempora delectus deserunt.
-          Cupiditate porro itaque officia deleniti provident, assumenda ratione
-          similique sit nihil unde maxime?
+        <p className="mt-3">
+          In this project, I make use of API's together with PHP and Javascript
+          to create an app that retrieves various pieces of information and
+          renders them to the user in an understandable format. This project has
+          helped me to understand how to handle data I receive from API calls
+          and best practices to use in displaying it in the DOM.
         </p>
         <p>
           <b>GitHub: </b>
@@ -98,16 +103,9 @@ const Portfolio = () => {
       </>
     );
 
-    PopupboxManager.open({ content });
-  };
+    config["titleBar"]["text"] = "Mapyo Project";
 
-  const configMapyo = {
-    titleBar: {
-      enable: true,
-      text: "Mapyo Project",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({ content, config });
   };
 
   return (
@@ -135,8 +133,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <PopupboxContainer {...configCompanyDatabase} />
-      <PopupboxContainer {...configMapyo} />
+      <PopupboxContainer />
     </div>
   );
 };

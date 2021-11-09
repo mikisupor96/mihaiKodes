@@ -13,18 +13,18 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">WHO ARE YOU?</h1>
           <p>
-            My name is Mihai and I am an avid coder, lifter and gamer, I make
-            sure I always suceed in the projects I undertake by planning my
-            project goals, persevering through buggy code and seeking help when
-            I really struggle.
+            My name is Mihai and I am an avid coder, lifter, and gamer, I make
+            sure I always succeed in the projects I undertake by planning my
+            project goals, persevering through buggy code, and seeking help when
+            I struggle.
           </p>
-          <h1 className="about-heading">WHY SHOULD I HIRE YOU?</h1>
+          <h1 className="about-heading">WHAT SETS YOU APART?</h1>
           <p>
-            Most people who join the world of Web Development they do so becuase
-            they hear of how much money is to be made. I just like spending my
-            time solving the problems from my code to make it better and learn
-            of better and more efficient ways to code. I look at code like giant
-            riddles waiting to be unravelled.
+            When I first started my journey in Web Development years ago I never
+            thought I would end up completing fully functioning projects, I
+            experienced moments where I thought `This is too complicated, maybe
+            I'm just not meant for this`, but the next day I got back at the
+            problem and did everything in my power to solve it.
           </p>
         </div>
       </div>

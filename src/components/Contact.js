@@ -35,7 +35,7 @@ function Contact() {
       .send(serviceID, templateID, variables, userID)
       .then(() => {
         setSuccessMessage(
-          "I have recived your email and will get back to you within 24 hours!"
+          "I have received your email and will get back to you within 24 hours!"
         );
       })
       .catch((e) => {

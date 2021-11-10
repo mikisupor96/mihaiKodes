@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../Images/profile.jpg";
+import CV from "../CV.pdf";
 
 const AboutMe = () => {
   return (
@@ -35,7 +36,7 @@ const AboutMe = () => {
           email by filling the form below I would be happy to hear back from
           you.
         </p>
-        <a href="../CV.docx" download>
+        <a href={CV} download>
           Click to download
         </a>
       </div>

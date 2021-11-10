@@ -161,7 +161,6 @@ nav a.nav-link {
 .btn-light {
   text-decoration: none;
   margin: 2rem;
-  color: var(--bs-gray-800) !important;
 }
 
 /************************************** PARTICLES JS **************************************/

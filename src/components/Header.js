@@ -11,7 +11,7 @@ const Header = () => {
         <Typed
           className="typed-text"
           strings={[
-            "Don`t try!",
+            "Don't try!",
             "Instead succeed",
             "in what you love",
             "through failure.",

@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <div>
-        <Particles
+        {/* <Particles
           id="tsparticles"
           options={{
             fpsLimit: 60,
@@ -78,7 +78,7 @@ function App() {
             },
             detectRetina: true,
           }}
-        />
+        /> */}
         <Header />
       </div>
       <AboutMe />

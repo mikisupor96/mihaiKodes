@@ -13,6 +13,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/mihai-gabriel-pascaru-9180a1168/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon
                   className="footer-icon"
@@ -25,7 +26,7 @@ const Footer = () => {
           <div className="col-lg-6 col-md-6">
             <div className="d-flex">
               <p>GitHub</p>
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
                   className="footer-icon"
                   icon={faGithub}

@@ -28,6 +28,17 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
+      <div className="row">
+        <h1 className="about-heading">GET A COPY OF MY CV!</h1>
+        <p>
+          If you are interested to hear more get a copy of my CV and send me an
+          email by filling the form below I would be happy to hear back from
+          you.
+        </p>
+        <a href="../CV.docx" download>
+          Click to download
+        </a>
+      </div>
     </div>
   );
 };

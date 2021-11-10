@@ -38,6 +38,7 @@ const Portfolio = () => {
           <b>GitHub: </b>
           <a
             target="_blank"
+            rel="noreferrer"
             className="hyper-link"
             href="https://github.com/mikisupor96/Company-Database"
           >
@@ -49,6 +50,7 @@ const Portfolio = () => {
           <b>Live: </b>
           <a
             target="_blank"
+            rel="noreferrer"
             className="hyper-link"
             href="https://cpdatabase.herokuapp.com/"
           >
@@ -83,6 +85,7 @@ const Portfolio = () => {
           <b>GitHub: </b>
           <a
             target="_blank"
+            rel="noreferrer"
             className="hyper-link"
             href="https://github.com/mikisupor96/Mapyo"
           >
@@ -94,6 +97,7 @@ const Portfolio = () => {
           <b>Live: </b>
           <a
             target="_blank"
+            rel="noreferrer"
             className="hyper-link"
             href="https://mapyo.herokuapp.com/"
           >

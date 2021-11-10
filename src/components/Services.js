@@ -6,6 +6,15 @@ import {
   faCode,
   faTerminal,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhp,
+  faJs,
+  faHtml5,
+  faCss3,
+  faPython,
+  faReact,
+  faMicrosoft,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Services = () => {
   return (
@@ -13,6 +22,28 @@ const Services = () => {
       <h1 className="py-5">WHAT I OFFER</h1>
       <div className="container">
         <div className="row">
+          <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faPhp} size="2x" />
+              </div>
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faJs} size="2x" />
+              </div>
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faHtml5} size="2x" />
+              </div>
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faCss3} size="2x" />
+              </div>
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faPython} size="2x" />
+              </div>
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faReact} size="2x" />
+              </div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
@@ -63,6 +94,23 @@ const Services = () => {
                 Database and Mapyo, both use PHP for requests whether it would
                 be to make requests to an API for data or to a MySql database
                 for users' information.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="circle">
+                <FontAwesomeIcon
+                  className="icon"
+                  icon={faMicrosoft}
+                  size="2x"
+                />
+              </div>
+              <h3>Microsoft certified</h3>
+              <p>
+                I am the proud owner of my Microsoft Programming in HTML5 with
+                JavaScript and CSS3, which certifies me for all basic Web
+                Development areas.
               </p>
             </div>
           </div>

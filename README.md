@@ -11,7 +11,7 @@
 11. We use `git log` to see the changes done so far and by who.`git status` can also be used to check changes
 12. To add a repository we copy paste the line from git hub that has `remote` on it.
 13. Then we push the changes using `git push -u origin master` this adds changes to the master branch.Use this token to upload[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]
-14. We use `git branch` to check the current branches. We use `git remote -v` to check the current remote. To change url origin we use `git remote set-url name`. Here is an example of the remote `https://[ACCESS TOKEN]@github.com/[USERNAME]/[PROJECT NAME]`
+14. We use `git branch` to check the current branches. We use `git remote -v` to check the current remote. To change url origin we use `git remote set-url name`. Here is an example of the remote `git remote add origin https://[ACCESS TOKEN]@github.com/[USERNAME]/[PROJECT NAME]`
 15. In src we create a directory named `components`, we can use `rafc` to create the code inside an empty component.
 16. Import the `navbar` component, the js extension does not need to be specified because webpack is installed.
 17. All `class` need to be changed to `className` in html elements.
@@ -24,3 +24,11 @@
 24. Wrap the content in a `container` class to center them.(use alt + down or up to move stuff across screen)
 25. Add `hover` and `focus` effect border top to indicate where the user is at.
 26. Install `react fontawesome`, then import into Navbar.js, we add a hamburger icon. Then add it as a `react` component.
+
+-Change title tag to your name.[COMPLETE]
+-Apply a favicon tag.[COMPLETE]
+-The animated effect that occurs in various places is probably a bit over the top, may be affecting performance and quickly becomes irritating.[COMPLETE]
+-You need to have a button to download a PDF copy of your CV (recruitment have a template that you can use).[COMPLETE]
+-You should detail all of the languages/libraries that you have trained on and used in your projects. The best way to do this is to display the official logo for each.[COMPLETE]
+-MS certification?[COMPLETE]
+-The colours for the form need adjusting as the input is virtually invisible when it loses focus. Similarly, the text on the submit button is not visible until it is hovered over[COMPLETE]

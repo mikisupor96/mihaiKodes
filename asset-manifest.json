@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/mihaiKodes/static/css/main.e4598c7c.chunk.css",
-    "main.js": "/mihaiKodes/static/js/main.cc5be6ce.chunk.js",
-    "main.js.map": "/mihaiKodes/static/js/main.cc5be6ce.chunk.js.map",
-    "runtime-main.js": "/mihaiKodes/static/js/runtime-main.81fb5a6b.js",
-    "runtime-main.js.map": "/mihaiKodes/static/js/runtime-main.81fb5a6b.js.map",
+    "main.js": "/mihaiKodes/static/js/main.201ea075.chunk.js",
+    "main.js.map": "/mihaiKodes/static/js/main.201ea075.chunk.js.map",
+    "runtime-main.js": "/mihaiKodes/static/js/runtime-main.d5f528a3.js",
+    "runtime-main.js.map": "/mihaiKodes/static/js/runtime-main.d5f528a3.js.map",
     "static/css/2.94dfca56.chunk.css": "/mihaiKodes/static/css/2.94dfca56.chunk.css",
-    "static/js/2.2ea1eb1c.chunk.js": "/mihaiKodes/static/js/2.2ea1eb1c.chunk.js",
-    "static/js/2.2ea1eb1c.chunk.js.map": "/mihaiKodes/static/js/2.2ea1eb1c.chunk.js.map",
-    "static/js/3.0ad52fbd.chunk.js": "/mihaiKodes/static/js/3.0ad52fbd.chunk.js",
-    "static/js/3.0ad52fbd.chunk.js.map": "/mihaiKodes/static/js/3.0ad52fbd.chunk.js.map",
+    "static/js/2.8fdf5f88.chunk.js": "/mihaiKodes/static/js/2.8fdf5f88.chunk.js",
+    "static/js/2.8fdf5f88.chunk.js.map": "/mihaiKodes/static/js/2.8fdf5f88.chunk.js.map",
+    "static/js/3.718b3a9c.chunk.js": "/mihaiKodes/static/js/3.718b3a9c.chunk.js",
+    "static/js/3.718b3a9c.chunk.js.map": "/mihaiKodes/static/js/3.718b3a9c.chunk.js.map",
     "index.html": "/mihaiKodes/index.html",
     "static/css/2.94dfca56.chunk.css.map": "/mihaiKodes/static/css/2.94dfca56.chunk.css.map",
     "static/css/main.e4598c7c.chunk.css.map": "/mihaiKodes/static/css/main.e4598c7c.chunk.css.map",
-    "static/js/2.2ea1eb1c.chunk.js.LICENSE.txt": "/mihaiKodes/static/js/2.2ea1eb1c.chunk.js.LICENSE.txt",
+    "static/js/2.8fdf5f88.chunk.js.LICENSE.txt": "/mihaiKodes/static/js/2.8fdf5f88.chunk.js.LICENSE.txt",
     "static/media/CV.114c0249.pdf": "/mihaiKodes/static/media/CV.114c0249.pdf",
     "static/media/App.css": "/mihaiKodes/static/media/background.7eae4995.jpg",
     "static/media/mapyo1.e6b43a63.jpg": "/mihaiKodes/static/media/mapyo1.e6b43a63.jpg",
     "static/media/profile.758fa50e.jpg": "/mihaiKodes/static/media/profile.758fa50e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.81fb5a6b.js",
+    "static/js/runtime-main.d5f528a3.js",
     "static/css/2.94dfca56.chunk.css",
-    "static/js/2.2ea1eb1c.chunk.js",
+    "static/js/2.8fdf5f88.chunk.js",
     "static/css/main.e4598c7c.chunk.css",
-    "static/js/main.cc5be6ce.chunk.js"
+    "static/js/main.201ea075.chunk.js"
   ]
 }
